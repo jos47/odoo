@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Форма контакта -->
+    <record id="view_partner_form_custom" model="ir.ui.view">
+        <field name="name">res.partner.form.custom.relationships</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <!-- Добавляем поле в информационную секцию -->
+            <xpath expr="//div[@name='partner_info']//group[@name='partner_adress']" position="after">
+                <group string="Relationship Types">
+                    <field name="relationship_type_ids" widget="many2many_tags"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Дерево контактов -->
+    <record id="view_partner_tree_custom" model="ir.ui.view">
+        <field name="name">res.partner.tree.custom.relationships</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="relationship_type_ids" widget="many2many_tags" string="Relationships"/>
+            </field>
+        </field>
+    </record>
+
+    <!-- Поиск контактов -->
+    <record id="view_partner_filter_custom" model="ir.ui.view">
+        <field name="name">res.partner.filter.custom.relationships</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="relationship_type_ids" string="Relationship Type"/>
+            </field>
+        </field>
+    </record>
+</odoo>
