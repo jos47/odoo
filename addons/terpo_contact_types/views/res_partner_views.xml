@@ -8,7 +8,7 @@
         <field name="arch" type="xml">
             <!-- Добавляем поле после существующего поля -->
             <field name="category_id" position="after">
-                <field name="relationship_type_ids" widget="many2many_tags" string="Relationship Types"/>
+                <field name="relationship_type_ids" widget="many2many_tags" string="Типы отношений"/>
             </field>
         </field>
     </record>
