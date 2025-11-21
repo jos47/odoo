@@ -2,76 +2,76 @@
 <odoo>
     <data noupdate="1">
         <record id="relationship_type_accountfirm" model="relationship.type">
-            <field name="name">Account Firm</field>
+            <field name="name">Бухгалтерская фирма</field>
         </record>
         <record id="relationship_type_agent" model="relationship.type">
-            <field name="name">Agent</field>
+            <field name="name">Агент</field>
         </record>
         <record id="relationship_type_broker" model="relationship.type">
-            <field name="name">Broker</field>
+            <field name="name">Брокер</field>
         </record>
         <record id="relationship_type_car" model="relationship.type">
-            <field name="name">Car</field>
+            <field name="name">Автомобиль</field>
         </record>
         <record id="relationship_type_client" model="relationship.type">
-            <field name="name">Client</field>
+            <field name="name">Клиент</field>
         </record>
-        <record id="relationship_type_commissioner" model="relationship.type">
-            <field name="name">Commissioner</field>
+        <record id="relationship_type_comissioner" model="relationship.type">
+            <field name="name">Комиссионер</field>
         </record>
         <record id="relationship_type_contractor" model="relationship.type">
-            <field name="name">Contractor</field>
+            <field name="name">Подрядчик</field>
         </record>
         <record id="relationship_type_contractowner" model="relationship.type">
-            <field name="name">Contract Owner</field>
+            <field name="name">Владелец контракта</field>
         </record>
         <record id="relationship_type_dispatcher" model="relationship.type">
-            <field name="name">Dispatcher</field>
+            <field name="name">Диспетчер</field>
         </record>
         <record id="relationship_type_employee" model="relationship.type">
-            <field name="name">Employee</field>
+            <field name="name">Сотрудник</field>
         </record>
         <record id="relationship_type_forwarder" model="relationship.type">
-            <field name="name">Forwarder</field>
+            <field name="name">Экспедитор</field>
         </record>
         <record id="relationship_type_line" model="relationship.type">
-            <field name="name">Line</field>
+            <field name="name">Линия</field>
         </record>
         <record id="relationship_type_orgaccount" model="relationship.type">
-            <field name="name">Organization Account</field>
+            <field name="name">Организационный счет</field>
         </record>
         <record id="relationship_type_person" model="relationship.type">
-            <field name="name">Person</field>
+            <field name="name">Физическое лицо</field>
         </record>
         <record id="relationship_type_producer" model="relationship.type">
-            <field name="name">Producer</field>
+            <field name="name">Производитель</field>
         </record>
         <record id="relationship_type_receiver" model="relationship.type">
-            <field name="name">Receiver</field>
+            <field name="name">Получатель</field>
         </record>
         <record id="relationship_type_recipient" model="relationship.type">
-            <field name="name">Recipient</field>
+            <field name="name">Адресат</field>
         </record>
         <record id="relationship_type_retterminal" model="relationship.type">
-            <field name="name">Retail Terminal</field>
+            <field name="name">Розничный терминал</field>
         </record>
         <record id="relationship_type_sender" model="relationship.type">
-            <field name="name">Sender</field>
+            <field name="name">Отправитель</field>
         </record>
         <record id="relationship_type_servicer" model="relationship.type">
-            <field name="name">Servicer</field>
+            <field name="name">Сервисная компания</field>
         </record>
         <record id="relationship_type_stock" model="relationship.type">
-            <field name="name">Stock</field>
+            <field name="name">Склад</field>
         </record>
         <record id="relationship_type_storage" model="relationship.type">
-            <field name="name">Storage</field>
+            <field name="name">Хранилище</field>
         </record>
         <record id="relationship_type_terminal" model="relationship.type">
-            <field name="name">Terminal</field>
+            <field name="name">Терминал</field>
         </record>
         <record id="relationship_type_afirmholder" model="relationship.type">
-            <field name="name">Affirm Holder</field>
+            <field name="name">Владелец фирмы</field>
         </record>
     </data>
 </odoo>

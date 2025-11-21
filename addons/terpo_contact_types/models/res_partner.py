@@ -5,8 +5,8 @@ class ResPartner(models.Model):
 
     relationship_type_ids = fields.Many2many(
         'relationship.type',
-        string='Relationship Types',
-        help='Types of relationships with this contact'
+        string='Типы отношений',
+        #help='Types of relationships with this contact'
     )
 
 class RelationshipType(models.Model):
